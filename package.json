@@ -18,5 +18,6 @@
   },
   "homepage": "https://github.com/ryanward4556/ryanward4556.github.io#readme",
   "dependencies": {
+    "aos": "^2.3.4"
   }
 }
