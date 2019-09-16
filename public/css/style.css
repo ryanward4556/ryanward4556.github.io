@@ -9,10 +9,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    z-index: 1000;
 }
 
 #location-img {
-    background: url("/img/philly-1.jpg") no-repeat center fixed;
+    background: url("../img/philly-1.jpg") no-repeat center fixed;
     background-size: cover;
     height: 250px;
     position: relative;
