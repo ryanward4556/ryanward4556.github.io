@@ -1,5 +1,19 @@
+h1, h5, h4, h6, p {
+    color: #45ecd0;
+}
+
+.my-navbar-link {
+    color: #45ecd0;
+}
+
+#main-navbar {
+    background: black;
+}
+
 .jumbotron {
     height: 40rem;
+    background: #01325b;
+    margin: 0;
 }
 
 #location-text {
@@ -21,4 +35,51 @@
 
 .card {
     width: 20rem;
+    background: black;
+}
+
+.btn {
+    color: black;
+    background: #45ecd0;
+}
+
+
+.color-change {
+    position: relative;
+    -webkit-animation: colorChange 20s infinite ease; /* Safari 4.0 - 8.0 */
+    animation: colorChange 20s infinite ease;
+}
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes colorChange {
+    0%   {background: #01325b;}
+    50% {background: #01adeb;}
+    100%   {background: #01325b;}
+}
+  
+  /* Standard syntax */
+  @keyframes colorChange {
+    0%   {background: #01325b;}
+    50% {background: #01adeb;}
+    100%   {background: #01325b;}
+}
+
+.text-color-change {
+    position: relative;
+    -webkit-animation: textColorChange 20s infinite ease; /* Safari 4.0 - 8.0 */
+    animation: textColorChange 20s infinite ease;
+}
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes textColorChange {
+    0%   {color: #01adeb;}
+    50% {color: black;}
+    100%   {color: #01adeb;}
+}
+  
+  /* Standard syntax */
+  @keyframes textColorChange {
+    0%   {color: #01adeb;}
+    50% {color: black;}
+    100%   {color: #01adeb;}
 }
