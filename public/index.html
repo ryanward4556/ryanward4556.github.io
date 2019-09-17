@@ -43,11 +43,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link my-navbar-link" href="./index.html">Home <span
-                        class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link my-navbar-link" href="./aboutme.html">About Me</a>
-                <a class="nav-item nav-link my-navbar-link" href="./portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link my-navbar-link" href="./contact.html">Contact</a>
+                <a class="nav-item nav-link my-navbar-link" href="/">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link my-navbar-link" href="/aboutme">About Me</a>
+                <a class="nav-item nav-link my-navbar-link" href="/portfolio">Portfolio</a>
+                <a class="nav-item nav-link my-navbar-link" href="/contact">Contact</a>
             </div>
         </div>
     </nav>
@@ -66,26 +65,39 @@
     </div>
 
     <!-- Location Space (Philly background) -->
-    <div class="container-fluid">
+    <div class="container-fluid p-3" id="stack-container">
         <div class="row">
             <div class="col-sm-12">
-                <h1 class="text-center" id="stack-text">My Stack</h1>
+                <h1 class="text-center" id="stack-text">My Technologies</h1>
             </div>
         </div>
-        <!-- <div class="container-fluid d-flex justify-content-center" id="my-stack"> -->
-            <div class="row mx-auto">
-                <div class="col-sm-12">
-                    <img class="stack-logos" src="./img/logos/html-css-js-img-2.png" alt="html, css, javascript logos">
-                </div>
+        <div class="row">
+            <div class="col-sm-4 d-flex justify-content-around">
+                <img class="stack-logos-secondary" src="./img/logos/handlebars-2.png" alt="html, css, javascript logos">
             </div>
-            <div class="row mx-auto">
-                <div class="col-sm-12">
-                    <img class="stack-logos" src="./img/logos/mern-img.png" alt="MERN Stack logos">
-                </div>
+            <div class="col-sm-4 d-flex justify-content-around">
+                <img class="stack-logos" src="./img/logos/html-css-js-3.png" alt="html, css, javascript logos">
             </div>
-        <!-- </div> -->
+            <div class="col-sm-4 d-flex justify-content-around">
+                <img class="stack-logos-secondary" src="./img/logos/jquery.png" alt="html, css, javascript logos">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 d-flex justify-content-around">
+                <img class="stack-logos-secondary" src="./img/logos/MySQL.png" alt="html, css, javascript logos">
+            </div>
+            <div class="col-sm-4 d-flex justify-content-center">
+                <img class="stack-logos" src="./img/logos/mern-img.png" alt="MERN Stack logos">
+            </div>
+            <div class="col-sm-4 d-flex justify-content-around">
+                <img class="stack-logos-secondary" id="sequelize-logo" src="./img/logos/sequelize-2.png"
+                    alt="html, css, javascript logos">
+            </div>
+        </div>
 
     </div>
+
+
 
 
 
@@ -120,6 +132,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-sm-6">
 
                     <!-- Card Right -->

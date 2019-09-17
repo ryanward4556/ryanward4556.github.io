@@ -20,6 +20,7 @@
   "homepage": "https://github.com/ryanward4556/ryanward4556.github.io#readme",
   "dependencies": {
     "aos": "^2.3.4",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "path": "^0.12.7"
   }
 }

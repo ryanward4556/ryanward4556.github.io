@@ -11,7 +11,7 @@ h1, h5, h4, h6, p {
 }
 
 .jumbotron {
-    height: 45rem;
+    height: 50rem;
     background: #01325b;
     margin: 0;
 }
@@ -26,21 +26,6 @@ h1, h5, h4, h6, p {
     z-index: 1000;
 }
 
-#my-stack {
-    height: 500px;
-    position: relative;
-}
-
-#stack-text {
-    color: gold;
-}
-
-.stack-logos {
-    height: 200px;
-    margin: 5rem;
-    justify-content: center;
-}
-
 #location-img {
     background: url("../img/philly-1.jpg") no-repeat center fixed;
     background-size: cover;
@@ -48,10 +33,38 @@ h1, h5, h4, h6, p {
     position: relative;
 }
 
+#my-stack {
+    height: 500px;
+    position: relative;
+}
+
+#stack-container {
+    background: whitesmoke;
+}
+
+#stack-text {
+    color: #01adeb;
+}
+
+.stack-logos {
+    height: 200px;
+    margin: 5px;
+}
+
+.stack-logos-secondary {
+    height: 175px;
+    margin: 5px;
+}
+
+#sequelize-logo {
+    height: 250px;
+}
+
 .card {
     height: 20rem;
     width: 20rem;
     background: black;
+    margin: 4px;
 }
 
 .card-img {
@@ -63,6 +76,10 @@ h1, h5, h4, h6, p {
     background: #45ecd0;
 }
 
+.modal-content {
+    background: #044d5f;
+    color: whitesmoke;
+}
 
 .color-change {
     position: relative;
@@ -73,14 +90,14 @@ h1, h5, h4, h6, p {
   /* Safari 4.0 - 8.0 */
   @-webkit-keyframes colorChange {
     0%   {background: #01325b;}
-    50% {background: #01adeb;}
+    50% {background: #044d5f;}
     100%   {background: #01325b;}
 }
   
   /* Standard syntax */
   @keyframes colorChange {
     0%   {background: #01325b;}
-    50% {background: #01adeb;}
+    50% {background: #044d5f;}
     100%   {background: #01325b;}
 }
 

@@ -15,8 +15,7 @@ app.use(express.json());
 app.use(express.static(__dirname + '/public'));
 
 // Calls htmlRoutes
-app.use(htmlRoutes);
-
+require("./routes/htmlRoutes")(app);
 
 // Starts the server to begin listening
 // =============================================================
