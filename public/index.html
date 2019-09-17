@@ -43,7 +43,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link my-navbar-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link my-navbar-link" href="./index.html">Home <span
+                        class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link my-navbar-link" href="./aboutme.html">About Me</a>
                 <a class="nav-item nav-link my-navbar-link" href="./portfolio.html">Portfolio</a>
                 <a class="nav-item nav-link my-navbar-link" href="./contact.html">Contact</a>
@@ -65,6 +66,30 @@
     </div>
 
     <!-- Location Space (Philly background) -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="text-center" id="stack-text">My Stack</h1>
+            </div>
+        </div>
+        <!-- <div class="container-fluid d-flex justify-content-center" id="my-stack"> -->
+            <div class="row mx-auto">
+                <div class="col-sm-12">
+                    <img class="stack-logos" src="./img/logos/html-css-js-img-2.png" alt="html, css, javascript logos">
+                </div>
+            </div>
+            <div class="row mx-auto">
+                <div class="col-sm-12">
+                    <img class="stack-logos" src="./img/logos/mern-img.png" alt="MERN Stack logos">
+                </div>
+            </div>
+        <!-- </div> -->
+
+    </div>
+
+
+
+    <!-- Location Space (Philly background) -->
     <div id="location-img">
         <h1 id="location-text">Based out of Philadelphia, PA</h1>
     </div>
@@ -82,14 +107,13 @@
 
                     <!-- Card Left -->
                     <div class="card text-center" style="width: 22rem">
-                        <img src="./img/job-trek-screenshot-2.png" class="card-img-top" alt="Job Trek">
+                        <img src="./img/job-trek-screenshot-2.png" class="card-img-top card-img" alt="Job Trek">
                         <div class="card-body">
                             <h5 class="card-title">Job Trek (Group Project #2)</h5>
                             <p class="card-text">Launch your career with Job Trek</p>
 
                             <!-- Button trigger modal -->
-                            <button type="button" class="btn" data-toggle="modal"
-                                data-target="#jobtrekModal">
+                            <button type="button" class="btn" data-toggle="modal" data-target="#jobtrekModal">
                                 See more
                             </button>
 
@@ -100,14 +124,13 @@
 
                     <!-- Card Right -->
                     <div class="card text-center" style="width: 22rem">
-                        <img src="./img/event-finder-screenshot.png" class="card-img-top" alt="Event Finder">
+                        <img src="./img/event-finder-screenshot.png" class="card-img-top card-img" alt="Event Finder">
                         <div class="card-body">
                             <h5 class="card-title">Event Finder (Group Project #1)</h5>
                             <p class="card-text">Find events with Job Trek</p>
 
                             <!-- Button trigger modal -->
-                            <button type="button" class="btn" data-toggle="modal"
-                                data-target="#jobtrekModal">
+                            <button type="button" class="btn" data-toggle="modal" data-target="#jobtrekModal">
                                 See more
                             </button>
 
@@ -117,12 +140,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Location Space (Philly background) -->
-    <div id="location-img">
-        <h1 id="location-text">Based out of Philadelphia, PA</h1>
-    </div>
-
 
     <!-- Featured Projects Modal Left -->
     <div class="modal fade" id="jobtrekModal" tabindex="-1" role="dialog" aria-labelledby="jobtrekModalTitle"
@@ -140,10 +157,14 @@
                     <ul>
                         <li><strong>Motivation:</strong> If you are planning a trip in another city, or just want
                             something to do this weekend, Event Finder is here to help</li>
-                        <li><strong>Description:</strong> This application will help you plan events for your next trip.
-                            Using the TicketMaster and Eventful API's, we take the date range and the city you select
-                            and find all of the events pertaining to your dates and and city. Each search is saved to a
-                            Firebase database, which can be used for future improvements to save searches for different
+                        <li><strong>Description:</strong> This application will help you plan events for your next
+                            trip.
+                            Using the TicketMaster and Eventful API's, we take the date range and the city you
+                            select
+                            and find all of the events pertaining to your dates and and city. Each search is saved
+                            to a
+                            Firebase database, which can be used for future improvements to save searches for
+                            different
                             users</li>
                         <li><strong>Technologies used:</strong></li>
                         <ul>
@@ -192,7 +213,8 @@
                         <li><strong>Motivation:</strong> Searching for and tracking which jobs you have interest in,
                             have applied for, or have
                             had interviews for can get very confusing and hard to stay on top of efficiently</li>
-                        <li><strong>Description:</strong> Job Trek serves as the mothership / homebase to track all of
+                        <li><strong>Description:</strong> Job Trek serves as the mothership / homebase to track all
+                            of
                             you jobs from various
                             different platforms in one place, allowing you to seamlessly launch your career</li>
                         <li><strong>Technologies used:</strong></li>

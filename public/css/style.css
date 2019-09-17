@@ -11,7 +11,7 @@ h1, h5, h4, h6, p {
 }
 
 .jumbotron {
-    height: 40rem;
+    height: 45rem;
     background: #01325b;
     margin: 0;
 }
@@ -26,6 +26,21 @@ h1, h5, h4, h6, p {
     z-index: 1000;
 }
 
+#my-stack {
+    height: 500px;
+    position: relative;
+}
+
+#stack-text {
+    color: gold;
+}
+
+.stack-logos {
+    height: 200px;
+    margin: 5rem;
+    justify-content: center;
+}
+
 #location-img {
     background: url("../img/philly-1.jpg") no-repeat center fixed;
     background-size: cover;
@@ -34,8 +49,13 @@ h1, h5, h4, h6, p {
 }
 
 .card {
+    height: 20rem;
     width: 20rem;
     background: black;
+}
+
+.card-img {
+    height: 175px;
 }
 
 .btn {
