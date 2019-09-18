@@ -10,9 +10,34 @@
     transform: translateY(-50%);   
 }
 
+.yosoy {
+  position: relative;
+  /* top: 50%;   */
+  width: 100%;
+  margin: 0 auto;
+  font-size: 100%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  /* transform: translateY(-50%);    */
+}
+
 /* Animation */
 .anim-typewriter{
     animation: typewriter 4s steps(104, end) 2s 1 normal both,
+               blinkTextCursor .5s steps(104, end) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 100%;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: #45ecd0;}
+    to{border-right-color: transparent;}
+  }
+
+  .anim-typewriter-2{
+    animation: typewriter 4s steps(104, end) 3s 1 normal both,
                blinkTextCursor .5s steps(104, end) infinite normal;
   }
   @keyframes typewriter{
