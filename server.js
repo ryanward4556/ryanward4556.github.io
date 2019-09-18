@@ -1,7 +1,6 @@
 // Dependencies
 // =============================================================
 var express = require("express");
-var htmlRoutes = require("./routes/htmlRoutes");
 
 // Sets up the Express App
 // =============================================================
