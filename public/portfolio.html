@@ -202,6 +202,7 @@
             </div>
         </div>
     </div>
+
     <!-- Past Projects -->
     <div class="container-fluid color-change p-5">
         <div class="row">
@@ -211,7 +212,7 @@
         </div>
         <div class="container d-flex justify-content-center">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-4">
 
                     <!-- Card 1 -->
                     <div class="card text-center" style="width: 20rem">
@@ -229,8 +230,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6">
-
+                <div class="col-sm-4">
                     <!-- Card 2 -->
                     <div class="card text-center" style="width: 20rem">
                         <img src="./img/event-finder-screenshot.png" class="card-img-top card-img" alt="Bamazon">
@@ -246,6 +246,41 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-sm-4">
+                    <!-- Card 3 -->
+                    <div class="card text-center" style="width: 20rem">
+                        <img src="./img/event-finder-screenshot.png" class="card-img-top card-img" alt="Bamazon">
+                        <div class="card-body">
+                            <h5 class="card-title">Friend Finder</h5>
+                            <p class="card-text">See which author you match with</p>
+
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn" data-toggle="modal" data-target="#projectModal3">
+                                See more
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <!-- Card 3 -->
+                    <div class="card text-center" style="width: 20rem">
+                        <img src="./img/event-finder-screenshot.png" class="card-img-top card-img" alt="Bamazon">
+                        <div class="card-body">
+                            <h5 class="card-title">Game of Thrones Trivia Game</h5>
+                            <p class="card-text">GOT fan? Try your luck...</p>
+
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn" data-toggle="modal" data-target="#projectModal4">
+                                See more
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
@@ -304,7 +339,7 @@
             </div>
         </div>
 
-        <!-- Featured Projects Modal Right -->
+        <!-- Featured Projects Modal 2 -->
         <div class="modal fade" id="projectModal2" tabindex="-1" role="dialog" aria-labelledby="projectModal2Title"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
@@ -346,6 +381,97 @@
                 </div>
             </div>
         </div>
+
+        <!-- Featured Projects Modal 3 -->
+        <div class="modal fade" id="projectModal3" tabindex="-1" role="dialog" aria-labelledby="projectModal3Title"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModal3Title">Friend Finder</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- change photo -->
+                        <img class="img-fluid p-2 mb-2" src="./img/job-trek-screenshot.PNG" alt="Friend Finder">
+                        <ul>
+                            <li><strong>Motivation:</strong> After reading a book, have you ever wondered if you'd be
+                                friends with the author? This homework assignment was used to gain experience using Node
+                                and Express.
+                            </li>
+                            <li><strong>Description:</strong> This application will help you find out which famous
+                                author your personality most accurately aligns with.
+                                Enter your name, a photo of yourself and answer the 10 personality questions to find
+                                your best match.
+                                Click on the API Friends List to see the yourself added to the friends list after you
+                                submit your survey
+                                utilizes routing to render the full list of friends on the page (by simulating hard
+                                coded made up API data)</li>
+                            <li><strong>Technologies used:</strong></li>
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>Node</li>
+                                <li>Express</li>
+                                <li>path</li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <a href="https://quiet-shore-44266.herokuapp.com/" target="_blank"><button type="button"
+                                class="btn btn-primary">View Deployed Site</button></a>
+                        <a href="https://github.com/ryanward4556/Friend-Finder" target="_blank"><button type="button"
+                                class="btn btn-primary">View GitHub Repo</button></a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Featured Projects Modal 4 -->
+        <div class="modal fade" id="projectModal4" tabindex="-1" role="dialog" aria-labelledby="projectModal4Title"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModal4Title">GOT Trivia</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- change photo -->
+                        <img class="img-fluid p-2 mb-2" src="./img/job-trek-screenshot.PNG" alt="Friend Finder">
+                        <ul>
+                            <li><strong>Motivation:</strong> Trivia Game homework assignment. What better topic than GOT?
+                            </li>
+                            <li><strong>Description:</strong> This app will test your knowledge of Game of Thrones TV
+                                Series (If you haven't seen the show yet...Spoiler Alert!-You have been warned).
+
+                                The game is simple, you choose your answers and it will tell you how many you've answer
+                                correctly, incorrectly, and how many you've left unanswered...this all happens once you
+                                press the start button, upon which the timer begins. Once you
+                                hit Submit or your time runs out, your results will display</li>
+                            <li><strong>Technologies used:</strong></li>
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>HTML/CSS</li>
+                                <li>JQuery</li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <a href="https://ryanward4556.github.io/Trivia-Game" target="_blank"><button type="button"
+                                class="btn btn-primary">View Deployed Site</button></a>
+                        <a href="https://github.com/ryanward4556/Trivia-Game" target="_blank"><button type="button"
+                                class="btn btn-primary">View GitHub Repo</button></a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     </div>
 

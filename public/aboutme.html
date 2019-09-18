@@ -22,57 +22,82 @@
         crossorigin="anonymous"></script>
 
     <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="../css/style.css">
-
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/typewriter.css">
 
     <title>About Me</title>
 </head>
 
 <body>
 
+
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Ryan Ward</a>
+    <nav id="main-navbar" class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand my-navbar-link" href="#">Ryan Ward</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="/aboutme.html">About Me</a>
-                <a class="nav-item nav-link" href="/portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link" href="/contact.html">Contact</a>
+                <a class="nav-item nav-link my-navbar-link" href="/">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link my-navbar-link" href="/aboutme">About Me</a>
+                <a class="nav-item nav-link my-navbar-link" href="/portfolio">Portfolio</a>
+                <a class="nav-item nav-link my-navbar-link" href="/contact">Contact</a>
             </div>
         </div>
     </nav>
 
-    <!-- About Me Jumbotron -->
-    <div class="jumbotron jumbotron-fluid mb-10 bg-transparent">
+    <!-- Intro Jumbotron -->
+    <div class="jumbotron jumbotron-fluid color-change">
         <div class="container">
-            <h1 class="display-4">Ryan Ward</h1>
-            <h4 class="lead">Software Engineer / Web Developer</h4>
-            <h6>Penn LPS Coding Bootcamp</h6>
+            <h1 class="display-4 mt-4 text-center">Ryan Ward</h1>
+            <h4 class="lead mt-4 text-center">Software Engineer / Web Developer</h4>
+            <div class="row mt-4 mb-4 d-flex align-items-center">
+                <p class="yosoy anim-typewriter">Soccer Player</p>
+            </div>
+            <div class="row mt-4 mb-4 d-flex align-items-center">
+                <p class="yosoy anim-typewriter-2">Self-Taught Barber</p>
+            </div>
+            <div class="row d-flex align-items-center">
+                <h4 class="yosoy">Penn LPS Coding Bootcamp</h4>
+            </div>
+
+            <div class="row  mt-4 mb-4 d-flex align-items-center">
+                <h4 class="yosoy">Swarthmore College '18</h4>
+            </div>
+
+            <div class="row d-flex align-items-center">
+                <h5 class="yosoy">BA in Political Science</h5>
+            </div>
+
+            <div class="row d-flex align-items-center">
+                <h6 class="yosoy">Minors in Psychology and Spanish</h6>
+            </div>
+
+            <div class="row mt-4 mb-4 d-flex align-items-center">
+                <h2 class="yosoy">Currently seeking a software engineering position in Philadelphia</h2>
+            </div>
+
+            <div class="row mt-4 mb-4 d-flex align-items-center">
+                <h2 class="yosoy">Future Goals: Work in AI / ML for sports technology</h2>
+            </div>
         </div>
     </div>
 
-    <ul>
-        <li>Education: Swarthmore College 2018</li>
-        <ul>
-            <li>Major: Political Science</li>
-            <li>Minors: Psychology, Spanish</li>
-        </ul>
-        <li>Location: Currently residing in Philadelphia, PA, from South Jersey</li>
-        <li>Other Interests:
-            <ul>
-                <li>Former College Soccer Player</li>
-                <li>Self-taught Barber</li>
-            </ul>
-        </li>
-        <li>Future Career Goals: Someday work with sports-related AI/ML</li>
-    </ul>
+
+    <!-- Location Space (Philly background) -->
+    <div id="location-img">
+        <h1 id="location-text">Based out of Philadelphia, PA</h1>
+    </div>
 
 
+    <!-- About Me Jumbotron -->
+    <div class="jumbotron jumbotron-fluid mb-10 bg-transparent">
+        <div class="container">
+
+        </div>
+    </div>
 </body>
 
 </html>
