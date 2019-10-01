@@ -49,3 +49,80 @@
     to{border-right-color: transparent;}
   }
 
+  .anim-typewriter-3{
+    animation: typewriter 4s steps(104, end) 4s 1 normal both,
+               blinkTextCursor .5s steps(104, end) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 100%;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: #45ecd0;}
+    to{border-right-color: transparent;}
+  }
+
+  .anim-typewriter-4{
+    animation: typewriter 5s steps(104, end) 5s 1 normal both,
+               blinkTextCursor .5s steps(104, end) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 100%;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: #45ecd0;}
+    to{border-right-color: transparent;}
+  }
+  .anim-typewriter-4-1{
+    animation: typewriter 5s steps(104, end) 5.5s 1 normal both,
+               blinkTextCursor .5s steps(104, end) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 100%;}
+  }
+
+  @keyframes blinkTextCursor{
+    from{border-right-color: #45ecd0;}
+    to{border-right-color: transparent;}
+  }
+  .anim-typewriter-4-2{
+    animation: typewriter 5s steps(104, end) 6s 1 normal both,
+               blinkTextCursor .5s steps(104, end) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 100%;}
+  }
+
+  @keyframes blinkTextCursor{
+    from{border-right-color: #45ecd0;}
+    to{border-right-color: transparent;}
+  }
+  .anim-typewriter-5{
+    animation: typewriter 5s steps(104, end) 7s 1 normal both,
+               blinkTextCursor .5s steps(104, end) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 100%;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: #45ecd0;}
+    to{border-right-color: transparent;}
+  }
+
+
+  .anim-typewriter-6{
+    animation: typewriter 5s steps(104, end) 9s 1 normal both,
+               blinkTextCursor 1s steps(104, end) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 100%;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: #45ecd0;}
+    to{border-right-color: transparent;}
+  }
