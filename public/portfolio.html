@@ -60,12 +60,30 @@
                 <h1 class="text-center">Featured</h1>
             </div>
         </div>
-        <div class="container d-flex justify-content-center">
-            <div class="row">
-                <div class="col-sm-6">
+        <div class="container d-flex">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-sm-4">
 
                     <!-- Card Left -->
-                    <div class="card text-center" style="width: 24rem">
+                    <div class="card text-center featured-card" style="width: 24rem">
+                        <img src="./img/clicky-game-screenshot.PNG" class="card-img-top card-img" alt="FIFA Clicky Game">
+                        <div class="card-body">
+                            <h5 class="card-title">FIFA Clicky Game</h5>
+                            <p class="card-text">How's your memory?</p>
+
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn" data-toggle="modal" data-target="#clickygameModal">
+                                See more
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+
+                    <!-- Card Middle -->
+                    <div class="card text-center featured-card" style="width: 24rem">
                         <img src="./img/job-trek-screenshot-2.png" class="card-img-top card-img" alt="Job Trek">
                         <div class="card-body">
                             <h5 class="card-title">Job Trek (Group Project #2)</h5>
@@ -80,10 +98,10 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6">
+                <div class="col-sm-4">
 
                     <!-- Card Right -->
-                    <div class="card text-center" style="width: 24rem">
+                    <div class="card text-center featured-card" style="width: 24rem">
                         <img src="./img/event-finder-screenshot.png" class="card-img-top card-img" alt="Event Finder">
                         <div class="card-body">
                             <h5 class="card-title">Event Finder (Group Project #1)</h5>
@@ -101,7 +119,47 @@
         </div>
     </div>
 
-    <!-- Featured Projects Modal Left -->
+    <!-- Featured Projects Modal Middle -->
+    <div class="modal fade" id="clickygameModal" tabindex="-1" role="dialog" aria-labelledby="clickygameModalTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="clickygameModalTitle">Job Trek (group project #2)</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-fluid p-2 mb-2" src="./img/clicky-game-screenshot.PNG" alt="FIFA Clicky Game">
+                    <ul>
+                        <li><strong>Motivation:</strong>This is my first React homework. It uses vanilla React, no
+                            react-router, no hooks, no
+                            context, just straight up React (with some react-bootstrap sprinkled in).</li>
+                        <li><strong>Description:</strong> See if you can get a perfect 12! This game is meant to test
+                            your short-term memory, you begin by clicking on a FIFA player card, after each click the
+                            cards will randomly change places, the goal is to click a new card each time. If you click
+                            on a card you've already clicked on, you lose!
+                        </li>
+                        <li><strong>Technologies used:</strong></li>
+                        <ul>
+                            <li>React</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <a href="https://ryanward4556.github.io/Clicky-Game/" target="_blank"><button type="button"
+                            class="btn btn-primary">View Deployed Site</button></a>
+                    <a href="https://github.com/ryanward4556/Clicky-Game" target="_blank"><button type="button"
+                            class="btn btn-primary">View GitHub Repo</button></a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Projects Modal Middle -->
     <div class="modal fade" id="jobtrekModal" tabindex="-1" role="dialog" aria-labelledby="jobtrekModalTitle"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -442,7 +500,8 @@
                     </div>
                     <div class="modal-body">
                         <!-- change photo -->
-                        <img class="img-fluid p-2 mb-2" src="./img/got-screenshot-2.png" alt="Game of Thrones Trivia Game">
+                        <img class="img-fluid p-2 mb-2" src="./img/got-screenshot-2.png"
+                            alt="Game of Thrones Trivia Game">
                         <ul>
                             <li><strong>Motivation:</strong> Trivia Game homework assignment. What better topic than
                                 GOT?
