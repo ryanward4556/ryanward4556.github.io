@@ -2,6 +2,10 @@ h1, h2, h3, h4, h5, h6, p {
     color: #45ecd0;
 }
 
+.modal-body.li {
+    margin: .25rem;
+}
+
 .my-navbar-link {
     color: #45ecd0;
 }
@@ -81,10 +85,6 @@ h1, h2, h3, h4, h5, h6, p {
     background: black;
     margin: 4px;
 }
-
-/* .featured-card {
-    margin: 0 auto;
-} */
 
 .card-img {
     height: 175px;
