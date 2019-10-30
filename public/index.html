@@ -106,54 +106,279 @@
         <h1 id="location-text">Based out of Philadelphia, PA</h1>
     </div>
 
-    <!-- Featured Projects -->
+    <!-- Featured -->
     <div class="container-fluid color-change p-5">
-        <div class="row">
-            <div class="col-sm-12 m-3">
-                <h1 class="text-center">Featured Projects</h1>
-            </div>
-        </div>
-        <div class="container d-flex justify-content-center">
             <div class="row">
-                <div class="col-sm-6">
-
-                    <!-- Card Left -->
-                    <div class="card text-center" style="width: 22rem">
-                        <img src="./img/job-trek-screenshot-2.png" class="card-img-top card-img" alt="Job Trek">
-                        <div class="card-body">
-                            <h5 class="card-title">Job Trek (Group Project #2)</h5>
-                            <p class="card-text">Launch your career with Job Trek</p>
-
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn" data-toggle="modal" data-target="#jobtrekModal">
-                                See more
-                            </button>
-
+                <div class="col-sm-12 m-3">
+                    <h1 class="text-center">Featured Projects</h1>
+                </div>
+            </div>
+            <!-- <div class="container"> -->
+                <div class="row">
+                    <div class="col-sm-3 d-flex justify-content-center">
+    
+                        <!-- Card 1 -->
+                        <div class="card text-center featured-card" style="width: 20rem">
+                            <img src="./img/AWI.PNG" class="card-img-top card-img" alt="A&W Investments">
+                            <div class="card-body">
+                                <h5 class="card-title">A&W Investments</h5>
+                                <p class="card-text">Stock Market Platform</p>
+    
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn" data-toggle="modal" data-target="#AWIModal">
+                                    See more
+                                </button>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 d-flex justify-content-center">
+    
+                        <!-- Card 2 -->
+                        <div class="card text-center featured-card" style="width: 20rem">
+                            <img src="./img/clicky-game-screenshot.PNG" class="card-img-top card-img"
+                                alt="FIFA Clicky Game">
+                            <div class="card-body">
+                                <h5 class="card-title">FIFA Clicky Game</h5>
+                                <p class="card-text">How's your memory?</p>
+    
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn" data-toggle="modal" data-target="#clickygameModal">
+                                    See more
+                                </button>
+    
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-sm-3 d-flex justify-content-center">
+    
+                        <!-- Card 3 -->
+                        <div class="card text-center featured-card" style="width: 20rem">
+                            <img src="./img/job-trek-screenshot-2.png" class="card-img-top card-img" alt="Job Trek">
+                            <div class="card-body">
+                                <h5 class="card-title">Job Trek</h5>
+                                <p class="card-text">Launch your career</p>
+    
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn" data-toggle="modal" data-target="#jobtrekModal">
+                                    See more
+                                </button>
+    
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-sm-3 d-flex justify-content-center">
+    
+                        <!-- Card 4 -->
+                        <div class="card text-center featured-card" style="width: 20rem">
+                            <img src="./img/event-finder-screenshot.png" class="card-img-top card-img" alt="Event Finder">
+                            <div class="card-body">
+                                <h5 class="card-title">Event Finder</h5>
+                                <p class="card-text">Find events near you</p>
+    
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn" data-toggle="modal" data-target="#eventFinderModal">
+                                    See more
+                                </button>
+    
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-sm-6">
-
-                    <!-- Card Right -->
-                    <div class="card text-center" style="width: 22rem">
-                        <img src="./img/event-finder-screenshot.png" class="card-img-top card-img" alt="Event Finder">
-                        <div class="card-body">
-                            <h5 class="card-title">Event Finder (Group Project #1)</h5>
-                            <p class="card-text">Find events with Event Finder</p>
-
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn" data-toggle="modal" data-target="#jobtrekModal">
-                                See more
-                            </button>
-
-                        </div>
+            <!-- </div> -->
+        </div>
+        <!-- Featured Projects Modal 2 -->
+        <div class="modal fade" id="AWIModal" tabindex="-1" role="dialog" aria-labelledby="AWIModalTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="AWIModalTitle">A&W Investments</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid p-2 mb-2" src="./img/AWI.PNG" alt="FIFA Clicky Game">
+                        <ul>
+                            <li><strong>Motivation:</strong> Create a full MERN stack application using Authentication for our Final Project</li>
+                            <li><strong>Description:</strong> A&W Investments is a stock market education and trading platform
+                                designed to create a seamless trading experience enabling our portfolio managers to buy /
+                                sell stocks using our Large Cap Growth or Large Cap Value strategies.
+                            </li>
+                            <li><strong>Technologies used:</strong></li>
+                            <ul>
+                                <li>HTML / CSS</li>
+                                <li>Bootstrap</li>
+                                <li>React</li>
+                                <li>JavaScript</li>
+                                <li>NodeJS / ExpressJS</li>
+                                <li>MongoDB / Mongoose</li>
+                                <li>Passport Local / Bcrypt (Authentication)</li>
+                                <li>Axios</li>
+                                <li>React-Router-Dom</li>
+                                <li>StockNews API</li>
+                                <li>Alpaca Paper Trading API</li>
+                                <li>IEX API</li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <a href="http://akramwardinvestments.herokuapp.com/" target="_blank"><button type="button"
+                                class="btn btn-primary">View Deployed Site</button></a>
+                        <a href="https://github.com/ryanward4556/akramwardinvestments" target="_blank"><button type="button"
+                                class="btn btn-primary">View GitHub Repo</button></a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
+    
+        <!-- Featured Projects Modal 2 -->
+        <div class="modal fade" id="clickygameModal" tabindex="-1" role="dialog" aria-labelledby="clickygameModalTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="clickygameModalTitle">FIFA Clicky Game</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid p-2 mb-2" src="./img/clicky-game-screenshot.PNG" alt="FIFA Clicky Game">
+                        <ul>
+                            <li><strong>Motivation:</strong> This is my first React app. It uses vanilla React, no
+                                react-router, no hooks, no
+                                context, just straight up React (with some react-bootstrap sprinkled in).</li>
+                            <li><strong>Description:</strong> See if you can get a perfect 12! This game is meant to test
+                                your short-term memory, you begin by clicking on a FIFA player card, after each click the
+                                cards will randomly change places, the goal is to click a new card each time. If you click
+                                on a card you've already clicked on, you lose!
+                            </li>
+                            <li><strong>Technologies used:</strong></li>
+                            <ul>
+                                <li>React</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <a href="https://ryanward4556.github.io/Clicky-Game/" target="_blank"><button type="button"
+                                class="btn btn-primary">View Deployed Site</button></a>
+                        <a href="https://github.com/ryanward4556/Clicky-Game" target="_blank"><button type="button"
+                                class="btn btn-primary">View GitHub Repo</button></a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Featured Projects Modal 3 -->
+        <div class="modal fade" id="jobtrekModal" tabindex="-1" role="dialog" aria-labelledby="jobtrekModalTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="jobtrekModalTitle">Job Trek (group project #2)</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid p-2 mb-2" src="./img/job-trek-screenshot-2.png" alt="Event Finder">
+                        <ul>
+                            <li><strong>Motivation:</strong>
+                                Searching for and tracking which jobs you have interest in, have applied for, or have had
+                                interviews for can get very confusing and hard to stay on top of efficiently
+                            </li>
+                            <li><strong>Description:</strong>
+                                Job Trek serves as the mothership / homebase to track all of you jobs from various different
+                                platforms in one place, allowing you to seamlessly launch your career
+                            </li>
+                            <li><strong>Technologies used:</strong></li>
+                            <ul>
+                                <li>HTML / CSS</li>
+                                <li>Bootstrap</li>
+                                <li>JQuery</li>
+                                <li>Sass</li>
+                                <li>Bounce.js (animations)</li>
+                                <li>Node</li>
+                                <li>Express</li>
+                                <li>Sequelize / MySQL</li>
+                                <li>Passport (Local Authentication)</li>
+                                <li>AJAX</li>
+                            </ul>
+                            <li><strong>API's used:</strong></li>
+                            <ul>
+                                <li>Authetic Jobs</li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <a href="https://http://danryanjess.herokuapp.com/" target="_blank"><button type="button"
+                                class="btn btn-primary">View Deployed Site</button></a>
+                        <a href="https://github.com/ryanward4556/Job-Trek" target="_blank"><button type="button"
+                                class="btn btn-primary">View GitHub Repo</button></a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Featured Projects Modal 4 -->
+        <div class="modal fade" id="eventFinderModal" tabindex="-1" role="dialog" aria-labelledby="eventFinderModalTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="eventFinderModalTitle">Event Finder</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid p-2 mb-2" src="./img/event-finder-screenshot.png" alt="Event Finder">
+                        <ul>
+                            <li><strong>Motivation:</strong> If you are planning a trip in another city, or just want
+                                something to do this weekend, Event Finder is here to help</li>
+                            <li><strong>Description:</strong> This application will help you plan events for your next
+                                trip.
+                                Using the TicketMaster and Eventful API's, we take the date range and the city you
+                                select
+                                and find all of the events pertaining to your dates and and city. Each search is saved
+                                to a
+                                Firebase database, which can be used for future improvements to save searches for
+                                different
+                                users</li>
+                            <li><strong>Technologies used:</strong></li>
+                            <ul>
+                                <li>HTML / CSS</li>
+                                <li>Bootstrap</li>
+                                <li>JQuery</li>
+                                <li>AJAX</li>
+                                <li>Firebase</li>
+                            </ul>
+                            <li><strong>API's used:</strong></li>
+                            <ul>
+                                <li>TicketMaster</li>
+                                <li>Eventful</li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <a href="https://ryanward4556.github.io/Event-Finder/" target="_blank"><button type="button"
+                                class="btn btn-primary">View Deployed Site</button></a>
+                        <a href="https://github.com/ryanward4556/Event-Finder" target="_blank"><button type="button"
+                                class="btn btn-primary">View GitHub Repo</button></a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
     <!-- Featured Projects Modal Left -->
     <div class="modal fade" id="jobtrekModal" tabindex="-1" role="dialog" aria-labelledby="jobtrekModalTitle"
         aria-hidden="true">
